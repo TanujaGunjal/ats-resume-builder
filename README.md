@@ -1,6 +1,4 @@
-Got it 👍 You want your README to look **clean and styled like the Weather Dashboard example** (with sections, emojis, and code blocks). Below is a **polished GitHub-ready README** you can **paste directly into `README.md`**.
 
----
 
 # 🚀 ATS Resume Builder
 
@@ -280,48 +278,10 @@ PDF Generator (Puppeteer)
 
 ---
 
-# 📦 Deployment
-
-### Backend
-
-Deploy on:
-
-* Render
-* Railway
-
-### Frontend
-
-Deploy on:
-
-* Vercel
-
----
-
-# 🚀 Future Improvements
-
-* AI Resume Rewriting
-* Cover Letter Generator
-* LinkedIn Profile Analyzer
-* Multi-language Resume Support
-* Advanced ATS Analytics Dashboard
-
----
-
 # 👩‍💻 Author
 
 **Tanuja Gunjal**
 
-Full Stack Developer
 Tech Stack: **React • Node.js • MongoDB**
 
----
 
-⭐ If you like this project, consider giving it a star!
-
----
-
-✅ This version will **look clean and professional on GitHub** like the example you showed.
-
----
-
-If you want, I can also show **3 README upgrades that make recruiters immediately click your project (very important for placements)**.
