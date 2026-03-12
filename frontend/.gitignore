@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Development
+.env.development.local
+.env.test.local

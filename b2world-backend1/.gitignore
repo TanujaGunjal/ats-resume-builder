@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.eslintcache
+
+# Build artifacts & Coverage
+dist/
+build/
+.build/
+coverage/
+.nyc_output/
+
+# Development
+.nodemon.json
