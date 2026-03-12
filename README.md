@@ -10,25 +10,41 @@ Modern companies use ATS software to filter resumes before recruiters see them.
 This system helps users:
 
 Create ATS-friendly resumes
+
 Analyze a Job Description (JD)
+
 Calculate an ATS compatibility score
+
 Get smart suggestions for improvement
+
 Generate optimized resumes automatically
+
 Export resumes as professional PDFs
+
 The platform also includes an Admin Dashboard to manage templates, keywords, and analytics.
 
 🧠 Core Features
+
 1️⃣ Resume Builder
 
 Users can create structured resumes with sections:
+
 Personal Information
+
 Professional Summary
+
 Skills
+
 Work Experience
+
 Projects
+
 Education
+
 Certifications
+
 Achievements
+
 Languages
 
 All templates follow ATS-safe formatting rules.
@@ -54,9 +70,13 @@ Suggested Keywords: REST API, Microservices, Docker
 Users can paste a Job Description, and the system extracts:
 
 Job role
+
 Required skills
+
 Important keywords
+
 Tools and frameworks
+
 Responsibilities
 
 The extracted keywords are used for ATS scoring and resume optimization.
@@ -64,10 +84,15 @@ The extracted keywords are used for ATS scoring and resume optimization.
 4️⃣ AI Suggestions Engine
 
 The system suggests improvements such as:
+
 Missing JD keywords
+
 Weak bullet points
+
 Better action verbs
+
 Grammar improvements
+
 Skill section enhancements
 
 Example:
@@ -85,9 +110,13 @@ Users can apply suggestions with one click.
 Users can generate a complete resume automatically using a job description.
 
 The system creates:
+
 Professional summary
+
 Optimized skills section
+
 Experience bullet points
+
 Project descriptions
 
 6️⃣ Resume PDF Export
@@ -100,41 +129,64 @@ B2World_Resume_John_SoftwareEngineer.pdf
 7️⃣ Admin Dashboard
 
 Admin users can:
+
 View total users
+
 Track resumes created
+
 Monitor downloads
+
 Manage resume templates
+
 Update keyword libraries
+
 Manage suggestion rules
 
 🛠️ Tech Stack
 Frontend
+
 React.js
+
 Tailwind CSS
+
 React Hook Form
+
 Context API / Redux Toolkit
+
 Material UI / Shadcn UI
 
 Backend
+
 Node.js
+
 Express.js
+
 JWT Authentication
+
 REST APIs
 
 Database
+
 MongoDB Atlas
+
 Mongoose ODM
 
 Resume Generation
+
 Puppeteer (PDF rendering)
 
 Deployment
+
 Frontend: Vercel
+
 Backend: Render / Railway
+
 Database: MongoDB Atlas
 
 🗄️ Database Design
+
 Main Collections:
+
 Users
 Resumes
 JobDescriptions
@@ -142,9 +194,13 @@ ATSReports
 Templates
 
 Each resume stores:
+
 resume content
+
 extracted JD keywords
+
 ATS score
+
 suggestions history
 
 📡 Key API Endpoints
@@ -192,22 +248,35 @@ http://localhost:5000
 🧪 Testing
 
 Run automated feature tests:
+
 node test.js
+
 This verifies:
+
 authentication
+
 resume creation
+
 ATS scoring
+
 JD analysis
+
 suggestions engine
+
 PDF generation
 
 🛡️ Security Features
 
 JWT Authentication
+
 bcrypt password hashing
+
 Helmet security headers
+
 CORS protection
+
 Rate limiting
+
 Input validation
 
 📊 System Architecture
@@ -220,9 +289,36 @@ Business Logic (ATS Engine)
 MongoDB Database
        ↓
 PDF Generator (Puppeteer)
+📦 Deployment
+Backend
 
+Deploy on:
+
+Render
+
+Railway
+
+Frontend
+
+Deploy on:
+
+Vercel
+
+🎯 Future Improvements
+
+AI resume rewriting
+
+Cover letter generator
+
+LinkedIn profile analyzer
+
+Multi-language resume support
+
+ATS score visualization dashboard
 
 👩‍💻 Author
+
 Tanuja Gunjal
 
+Full Stack Developer
 Specializing in React, Node.js, MongoDB
